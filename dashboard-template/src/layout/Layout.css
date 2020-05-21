@@ -1,0 +1,31 @@
+#top-nav {
+    height: 60px;
+    background-color: #292323;
+}
+
+#side-nav-1 {
+    background-color: #990303;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#side-nav-2 {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#side-nav-3 {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#side-nav-1, #side-nav-2, #side-nav-3, #main {
+    height: calc(100vh - 120px);
+}
+
+#side-nav-2, #side-nav-3 {
+    /*background-color: #9c9999;*/
+    background-color: #292323;
+}
+
+#footer {
+    height: 60px;
+    background-color: #292323;
+}

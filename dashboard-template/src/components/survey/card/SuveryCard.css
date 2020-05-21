@@ -1,0 +1,62 @@
+.card {
+    margin-bottom: 8px;
+    border-radius: 4px !important;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    padding: 3px !important;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .4s !important;
+    border-radius: 0 !important
+}
+
+.selected {
+    background-color: #B74E4E;;
+}
+
+.index {
+    width: 15%;
+}
+
+.name {
+    width: 50%;
+}
+
+.buttons {
+    width: auto;
+}
+
+.buttons button {
+    min-width: 24px;
+    width: 32px !important;
+    height: 32px;
+    padding: 0;
+    margin: 0 2px;
+    transition-duration: .4s;
+}
+
+.buttons button span {
+    display: flex;
+    align-content: center;
+}
+
+.status-indicator {
+    height: 3px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.card .draft {
+    background: linear-gradient(45deg, #9c9999 0%, rgba(0, 0, 0, 0.7) 40%, #9c9999 50%, rgba(0, 0, 0, 0.9) 80%, #9c9999 100%);
+}
+
+.card .active {
+    background: linear-gradient(45deg, #02994D 0%, rgba(0, 0, 0, 0.7) 40%, #02994D 50%, rgba(0, 0, 0, 0.9) 80%, #02994D 100%);
+}
+
+.card .inactive {
+    background: linear-gradient(45deg, #024D99 0%, rgba(0, 0, 0, 0.7) 40%, #024D99 50%, rgba(0, 0, 0, 0.9) 80%, #024D99 100%);
+}

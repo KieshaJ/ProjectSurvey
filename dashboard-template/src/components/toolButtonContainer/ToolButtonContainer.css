@@ -1,0 +1,18 @@
+.tool-button-container {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.tool-button-container button {
+    width: 33.333%;
+    transition-duration: .4s;
+    border-radius: 0 !important;
+}
+
+.tool-button-container button:hover {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #990303;
+}

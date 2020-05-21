@@ -1,0 +1,19 @@
+.survey-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-counts {
+    text-align: center;
+    padding: 1rem;
+    box-shadow: inset 0 2px 5px 0;
+    background-color: #9c9999;
+}
+
+.list {
+    padding: 0.5rem;
+    height: 100%;
+    overflow-y: scroll;
+}
